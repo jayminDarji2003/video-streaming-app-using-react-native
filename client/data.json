@@ -1,0 +1,39 @@
+{
+    "message": "videos get successfully",
+    "success": true,
+    "videos": [
+        {
+            "__v": 0,
+            "_id": "66703ecce02721292ca120c6",
+            "createdAt": "2024-06-17T13:49:00.528Z",
+            "prompt": "My second video prompt",
+            "thumbnail": "https://res.cloudinary.com/dc1tv6sle/image/upload/v1718632057/aora/ykrqvxv3sprjjuo2g9m1.jpg",
+            "title": "My second video",
+            "updatedAt": "2024-06-17T13:49:00.528Z",
+            "user": "666ed27e348a881b8d8122d5",
+            "videoUrl": "https://res.cloudinary.com/dc1tv6sle/video/upload/v1718632140/aora/zgubqmouxpviah5n829w.mp4"
+        },
+        {
+            "__v": 0,
+            "_id": "66703d35e02721292ca120c3",
+            "createdAt": "2024-06-17T13:42:13.548Z",
+            "prompt": "I got first rank in my college",
+            "thumbnail": "https://res.cloudinary.com/dc1tv6sle/image/upload/v1718631675/aora/yf1gs2sxtwesgonnqpbi.jpg",
+            "title": "My first video",
+            "updatedAt": "2024-06-17T13:42:13.548Z",
+            "user": "666ed27e348a881b8d8122d5",
+            "videoUrl": "https://res.cloudinary.com/dc1tv6sle/video/upload/v1718631733/aora/wvhqpgkmdy9m98lp9j0r.mp4"
+        },
+        {
+            "__v": 0,
+            "_id": "667031e00c0eab4129bfbd35",
+            "createdAt": "2024-06-17T12:53:52.507Z",
+            "prompt": "testing the video uploading",
+            "thumbnail": "https://res.cloudinary.com/dc1tv6sle/image/upload/v1718628829/aora/ae6m5fhm6ok8nfs3kffq.jpg",
+            "title": "test",
+            "updatedAt": "2024-06-17T12:53:52.507Z",
+            "user": "666ed27e348a881b8d8122d5",
+            "videoUrl": "https://res.cloudinary.com/dc1tv6sle/video/upload/v1718628832/aora/sgs5u2xsy7x1jkddv5bo.mkv"
+        }
+    ]
+}
