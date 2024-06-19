@@ -25,7 +25,7 @@ const Home = () => {
   const getAllVideos = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch("http://192.168.8.122:4000/videos");
+      const response = await fetch("https://video-streaming-app-backend.onrender.com/videos");
       const jsonVideos = await response.json();
       setVideos(jsonVideos.videos);
       setIsLoading(false);

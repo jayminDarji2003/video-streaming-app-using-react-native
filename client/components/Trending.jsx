@@ -69,7 +69,7 @@ const Trending = () => {
   const getLatestVideos = async () => {
     try {
       setIsLoadingLatestVideos(true);
-      const response = await fetch("http://192.168.8.122:4000/latest-video");
+      const response = await fetch("https://video-streaming-app-backend.onrender.com/latest-video");
       const data = await response.json();
       //console.log("DATA => ", data);
 

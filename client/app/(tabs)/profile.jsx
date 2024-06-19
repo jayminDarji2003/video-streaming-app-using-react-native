@@ -5,6 +5,7 @@ import {
   TouchableOpacity,
   FlatList,
   ActivityIndicator,
+  ScrollView,
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -38,7 +39,9 @@ const Profile = () => {
   const getAllVideos = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`http://192.168.8.122:4000/user/${user.id}`);
+      const response = await fetch(
+        `https://video-streaming-app-backend.onrender.com/user/${user.id}`
+      );
       const jsonVideos = await response.json();
       setVideos(jsonVideos.videos);
       setIsLoading(false);
@@ -101,29 +104,31 @@ const Profile = () => {
 
   return (
     <SafeAreaView className="h-full bg-primary">
-      <RenderHeader />
-      {!videos || videos.length === 0 ? (
-        <EmptyState
-          title="No videos Found"
-          subtitle="Be the first one to upload the video"
-          path="/create"
-          buttonTitle="Create Video"
-        />
-      ) : (
-        <FlatList
-          data={videos}
-          renderItem={renderItem}
-          keyExtractor={(item) => item._id}
-          // ListHeaderComponent={renderHeader}
-          ListFooterComponent={
-            isLoading ? (
-              <ActivityIndicator size="large" color="#00ff00" />
-            ) : null
-          }
-          refreshing={refreshing}
-          onRefresh={onRefresh}
-        />
-      )}
+      <ScrollView>
+        <RenderHeader />
+        {!videos || videos.length === 0 ? (
+          <EmptyState
+            title="No videos Found"
+            subtitle="Be the first one to upload the video"
+            path="/create"
+            buttonTitle="Create Video"
+          />
+        ) : (
+          <FlatList
+            data={videos}
+            renderItem={renderItem}
+            keyExtractor={(item) => item._id}
+            // ListHeaderComponent={renderHeader}
+            ListFooterComponent={
+              isLoading ? (
+                <ActivityIndicator size="large" color="#00ff00" />
+              ) : null
+            }
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+          />
+        )}
+      </ScrollView>
     </SafeAreaView>
   );
 };

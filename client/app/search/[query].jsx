@@ -17,7 +17,7 @@ const Search = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `http://192.168.8.122:4000/search?q=${query}`
+        `https://video-streaming-app-backend.onrender.com/search?q=${query}`
       );
       const jsonVideos = await response.json();
       setSearchPosts(jsonVideos.videos);

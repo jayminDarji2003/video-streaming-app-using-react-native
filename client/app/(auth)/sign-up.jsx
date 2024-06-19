@@ -40,11 +40,14 @@ const SignUp = () => {
     }
 
     try {
-      const result = await axios.post("http://192.168.8.122:4000/signup", {
-        username: form.username,
-        email: form.email,
-        password: form.password,
-      });
+      const result = await axios.post(
+        "https://video-streaming-app-backend.onrender.com/signup",
+        {
+          username: form.username,
+          email: form.email,
+          password: form.password,
+        }
+      );
       //console.log("RESULT OF CREATING USER => ", result);
 
       const id = result?.data?.user?._id;

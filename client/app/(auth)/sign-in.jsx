@@ -38,10 +38,13 @@ const SignIn = () => {
     }
 
     try {
-      const result = await axios.post("http://192.168.8.122:4000/login", {
-        email: form.email,
-        password: form.password,
-      });
+      const result = await axios.post(
+        "https://video-streaming-app-backend.onrender.com/login",
+        {
+          email: form.email,
+          password: form.password,
+        }
+      );
 
       // console.log("RESULT OF CREATING USER => ", result);
 
