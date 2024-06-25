@@ -71,29 +71,31 @@ step 5 : run this command in the cmd in that new created folder
 
 # Have a look on it
 
+<div align="center">
+
 ### MAIN INTRO PAGE
-![1](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/d9431e01-6ca6-4c26-a1ad-8d1ae7d0800f)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/d9431e01-6ca6-4c26-a1ad-8d1ae7d0800f" width="30%">
 
 ### REGISTER PAGE
-![2](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/46b5596b-e0f8-4431-9e3e-c5fd5e574eac)
-![3](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/50df362b-e8e2-4c94-92e4-0041d5a668b1)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/46b5596b-e0f8-4431-9e3e-c5fd5e574eac" width="30%">
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/50df362b-e8e2-4c94-92e4-0041d5a668b1" width="30%">
 
 ### LOGIN PAGE
-![4](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/d98964a0-c735-42b4-a9a8-048452019895)
-![5](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/5ab4e759-b676-498d-ab47-87646b2d4949)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/d98964a0-c735-42b4-a9a8-048452019895" width="30%">
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/5ab4e759-b676-498d-ab47-87646b2d4949" width="30%">
 
 ### HOME PAGE
-![6](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/8ce7d1ea-45c4-4aa6-8ea3-ffe1d7d222b9)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/8ce7d1ea-45c4-4aa6-8ea3-ffe1d7d222b9" width="30%">
 
 ### CREATE VIDEO PAGE
-![7](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/91d557fd-1800-4e76-a6f4-e19a041b1024)
-
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/91d557fd-1800-4e76-a6f4-e19a041b1024" width="30%">
 
 ### PROFILE PAGE
-![8](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/edef2d3c-f738-464a-a397-8b9418a76151)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/edef2d3c-f738-464a-a397-8b9418a76151" width="30%">
 
 ### BOOKMARK PAGE
-![9](https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/ff05524d-d631-4c49-bb73-7c413a0225b5)
+<img src="https://github.com/jayminDarji2003/form-validation-yup-formik/assets/122532790/ff05524d-d631-4c49-bb73-7c413a0225b5" width="30%">
 
+</div>
 
 
